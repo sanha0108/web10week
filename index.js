@@ -106,13 +106,11 @@ document.addEventListener("scroll", function(){
             el.style.opacity = 1;
             el.style.visibility = "visible";
             el.style.transition = "transform 1s ease, opacity 1s ease, visibility 1s";
-            el.style.fontSize = "0.94vw";
         } else {
             el.style.opacity = 0;
             el.style.visibility = "hidden";
             el.style.transition = "transform 1s ease, opacity 1s ease, visibility 1s";
             el.style.transform = "translateY(50px)";
-            el.style.fontSize = "1.25vw";
     }});
 
     infos.forEach((el, index) => {
