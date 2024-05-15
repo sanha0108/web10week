@@ -1,0 +1,131 @@
+@font-face {
+    font-family: KOTRA;
+    src: url(KOTRA_BOLD.otf);
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 300vh;
+    background-image: linear-gradient(to bottom, #5A4298, #985486, #E06872, #EFA081);
+}
+
+.siheung_logo img{
+    width: 6.51vw;
+    position: fixed;
+    top: 5%;
+    left: 3%;
+}
+
+.cloud1 img{
+    width: 30.37vw;
+    position: fixed;
+    top: 10%;
+    left: -0.4%;
+}
+
+.cloud2 img{
+    width: 33.70vw;
+    position: fixed;
+    top: 14%;
+    right: -0.1%;
+}
+
+.cloud3 img{
+    width: 22.29vw;
+    position: fixed;
+    top: 82%;
+    left: -0.1%;
+}
+
+.title{
+    font-family: KOTRA;
+    font-size: 1.67vw;
+    text-align: center;
+    position: fixed;
+    bottom: 35vw;
+    left: 37.5vw;
+    color: white;
+    letter-spacing: 0.4vw;
+}
+
+.BG{
+    width: 45.63vw;
+    position: fixed;
+    left: 27.19vw;
+    bottom: -1%;
+}
+
+.left{
+    width: 3.5vw;
+    position: fixed;
+    bottom: 23.13vw;
+    left: 26.67vw;
+}
+
+.right{
+    width: 3.85vw;
+    position: fixed;
+    bottom: 16.25vw;
+    right: 26.20vw;
+}
+
+.logo img{
+    width: 36.77vw;
+    position: fixed;
+    left: 31.56vw;
+    bottom: 12vw;
+}
+
+li{
+    list-style: none;
+}
+
+.subtext{
+    font-size: 1.25vw;
+    position: fixed;
+    left: 38vw;
+    font-family: KOTRA;
+    text-align: center;
+    bottom: 28vw;
+    color: white;
+}
+
+.info{
+    width: 59.38vw;
+    font-family: KOTRA;
+    font-size: 1.46vw;
+    color: white;
+    position: fixed;
+    left: 20.31vw;
+    bottom: 1vw;
+}
+
+.info li, .subtext li {
+    opacity: 0;
+    /* transform: translateY(50px); */
+    /* transition: transform 1s ease-out, opacity 1s ease-out; */
+    visibility: hidden;
+}
+
+.info :nth-child(2n){
+    text-align: right;
+    margin: 1.15vw 0 1.15vw 0;
+}
