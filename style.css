@@ -22,7 +22,7 @@
 }
 
 body{
-    width: 100vw;
+    width: 99vw;
     height: 300vh;
     background-image: linear-gradient(to bottom, #5A4298, #985486, #E06872, #EFA081);
 }
